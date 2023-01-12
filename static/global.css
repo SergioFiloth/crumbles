@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --principal: #f58d14;
+    --secundary: #F2441D;
+    --tertiary: #1a1a1a;
+    --secundary-text: #fdd225;
+}
+
+ul {
+    list-style: none;
+}
